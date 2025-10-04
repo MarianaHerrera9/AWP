@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app-root">
+      <header className="app-header">
+        Mi PWA Ejemplo
       </header>
+
+      <main className="app-main">
+        <div className="app-shell">
+          <img src="/logo384.png" alt="mypwa" className="app-logo" />
+          <h2>Home screen</h2>
+          <p>Esta es la vista inicial de la PWA (App Shell).</p>
+        </div>
+      </main>
+
+      <footer className="app-footer">
+        © 2025 - Mariana
+      </footer>
     </div>
   );
 }
